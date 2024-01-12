@@ -30,10 +30,10 @@ client.on("ready", async () => {
   } else {
     setlang('en');
   }
-  if (client.guilds.cache.get('1014921352500756500')) {
-    if (client.guilds.cache.get('1014921352500756500').channels.cache.get('1173960818841354382')) {
+  if (client.guilds.cache.get('1084146853702008872')) {
+    if (client.guilds.cache.get('1084146853702008872').channels.cache.get('1195470790271971348')) {
       
-      (client.guilds.cache.get('1014921352500756500').channels.cache.get('1173960818841354382') as TextChannel).send({ content: 'Hello world' }).catch(error => {});
+      (client.guilds.cache.get('1084146853702008872').channels.cache.get('1195470790271971348') as TextChannel).send({ content: 'Hello world' }).catch(error => {});
     } else {
       console.log('...');
     }
